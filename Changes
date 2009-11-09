@@ -8,4 +8,6 @@ Revision history for Perl module WebService::YQL
 
 0.03 Mon Jul 13 08:21:56 EEST 2009
     - renamed from WWW::YQL to WebService::YQL
+    - fixed RT #51233
+    - specified required dependencies
 

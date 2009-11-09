@@ -5,7 +5,6 @@ use Test::More tests => 1;
 
 use WebService::YQL;
 use List::MoreUtils qw(any);
-use Data::Dump qw(pp);
 
 my $yql = WebService::YQL->new;
 $yql->useragent->env_proxy;

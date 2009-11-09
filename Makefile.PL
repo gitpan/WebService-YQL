@@ -10,6 +10,8 @@ WriteMakefile(
     ABSTRACT     => 'Simple interface for Yahoo Query Language',
     PREREQ_PM    => {
         'Test::Simple' => 0.44,
-        'JSON::Any' => undef,
+        'JSON::Any' => '0',
+        'URI'   => '0',
+        'List::MoreUtils' => '0', # only required for tests
     },
 );

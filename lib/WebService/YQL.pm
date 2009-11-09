@@ -10,7 +10,7 @@ use JSON::Any;
 
 BEGIN {
     use vars qw($VERSION);
-    $VERSION     = '0.02';
+    $VERSION     = '0.03';
 }
 
 =head1 NAME
@@ -60,7 +60,7 @@ sub new {
 
     # Instantiate helper objects
     $self->{'_ua'} = LWP::UserAgent->new;
-    $self->{'_json'} = JSON->new;
+    $self->{'_json'} = JSON::Any->new;
 
     return $self;
 }
