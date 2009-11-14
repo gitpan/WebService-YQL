@@ -11,7 +11,8 @@ WriteMakefile(
     PREREQ_PM    => {
         'Test::Simple' => 0.44,
         'JSON::Any' => '0',
-        'URI'   => '0',
+        'URI' => '0',
+        'LWP::UserAgent' => '0',
         'List::MoreUtils' => '0', # only required for tests
     },
 );

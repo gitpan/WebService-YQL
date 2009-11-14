@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                WebService-YQL
-version:             0.03
+version:             0.04
 abstract:            Simple interface for Yahoo Query Language
 license:             ~
 author:              
@@ -10,6 +10,7 @@ distribution_type:   module
 requires:     
     JSON::Any:                     0
     List::MoreUtils:               0
+    LWP::UserAgent:                0
     Test::Simple:                  0.44
     URI:                           0
 meta-spec:
